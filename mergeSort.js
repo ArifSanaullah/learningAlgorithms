@@ -12,7 +12,6 @@ function merge(left, right) {
             arr.push(n);
         }
     }
-
     return arr.concat(left.slice().concat(right.slice()));
 }
 
